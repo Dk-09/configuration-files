@@ -1,0 +1,1 @@
+/home/dhruv/.config/nvim/init.vim
