@@ -4,8 +4,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
  Plug 'SirVer/ultisnips'
  Plug 'honza/vim-snippets'
  Plug 'scrooloose/nerdtree'
- Plug 'preservim/nerdcommenter'
  Plug 'mhinz/vim-startify'
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
- Plug 'ryanoasis/vim-devicons'
+ Plug 'nvim-lua/plenary.nvim'
+ Plug 'preservim/nerdcommenter'
+ Plug 'ryanoasis/vim-devicons' " for icons in nerdtree
 call plug#end()
